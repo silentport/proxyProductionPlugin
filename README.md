@@ -15,7 +15,7 @@ const proxyProductionPlugin = require('proxy-production-webpack-plugin');
 
 new proxyProductionPlugin({
   host: 'http://sandbox.api.puri.intl.miui.com', // server host
-  publicPath: 'http://sandbox.h5.puri.intl.miui.com/puri/', // static resources path
+  publicPath: 'http://sandbox.h5.puri.intl.miui.com/puri', // static resources path
   port: 8000, //localhost port
   entry: /^_puri/, // router for index
   messages: ['http://localhost:8000/_puri/share/v1/topic/Hindi/IN/en/20181121'], // test link

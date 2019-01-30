@@ -11,7 +11,7 @@ npm i proxy-production-webpack-plugin -D
 ### usage
 
 ```javascript
-const proxyProductionPlugin = require('proxy-production-webpack-plugin);
+const proxyProductionPlugin = require('proxy-production-webpack-plugin');
 
 new proxyProductionPlugin({
   host: 'http://sandbox.api.puri.intl.miui.com', // server host

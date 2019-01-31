@@ -1,6 +1,6 @@
 {
   "name": "proxy-production-webpack-plugin",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "description": "Run the built app by webpack using localhost",
   "main": "lib/index.js",
   "directories": {
